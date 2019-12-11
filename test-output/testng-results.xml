@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14368" started-at="2019-12-11T06:36:44Z" finished-at="2019-12-11T06:36:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14368" started-at="2019-12-11T06:36:44Z" finished-at="2019-12-11T06:36:59Z">
+      <class name="com.tests.TestClass003">
+        <test-method status="FAIL" signature="startReport()[pri:0, instance:com.tests.TestClass003@2b98378d]" name="startReport" is-config="true" duration-ms="0" started-at="2019-12-11T12:06:45Z" finished-at="2019-12-11T12:06:45Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.tests.TestClass003.startReport(TestClass003.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="SKIP" signature="method1()[pri:0, instance:com.tests.TestClass003@2b98378d]" name="method1" duration-ms="2" started-at="2019-12-11T12:06:59Z" finished-at="2019-12-11T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="SKIP" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.tests.TestClass003@2b98378d]" name="getResults" is-config="true" duration-ms="0" started-at="2019-12-11T12:06:59Z" finished-at="2019-12-11T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="SKIP" signature="method2()[pri:0, instance:com.tests.TestClass003@2b98378d]" name="method2" duration-ms="3" started-at="2019-12-11T12:06:59Z" finished-at="2019-12-11T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="SKIP" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.tests.TestClass003@2b98378d]" name="getResults" is-config="true" duration-ms="0" started-at="2019-12-11T12:06:59Z" finished-at="2019-12-11T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="SKIP" signature="method3()[pri:0, instance:com.tests.TestClass003@2b98378d]" name="method3" duration-ms="2" started-at="2019-12-11T12:06:59Z" finished-at="2019-12-11T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="SKIP" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.tests.TestClass003@2b98378d]" name="getResults" is-config="true" duration-ms="0" started-at="2019-12-11T12:06:59Z" finished-at="2019-12-11T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="SKIP" signature="endReport()[pri:0, instance:com.tests.TestClass003@2b98378d]" name="endReport" is-config="true" duration-ms="0" started-at="2019-12-11T12:06:59Z" finished-at="2019-12-11T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.tests.TestClass003 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
